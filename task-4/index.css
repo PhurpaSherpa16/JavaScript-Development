@@ -1,0 +1,25 @@
+.container {
+    padding: 20px;
+}
+
+#calc {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#tip-calculator label {
+    width: 150px;
+    font-size: 20px;
+}
+
+#tip-result {
+    margin-left: 15vw;
+}
+
+#tip-result label {
+    font-size: 20px;
+}
+
+#tip-result label span {
+    font-weight: bold;
+}

@@ -1,0 +1,58 @@
+#nav {
+    background: #464abd;
+    width: 100%;
+    padding: 40px;
+}
+
+#content {
+    margin: 50px;
+}
+
+#buttons {
+    padding-left: 50px;
+}
+
+#buttons a {
+    padding: 20px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+
+#buttons a:hover {
+    background: #f03a55;
+    color: white;
+    transition: 0.5s;
+}
+
+#Digital-clock {
+    border: 2px solid black;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    text-align: center;
+    box-shadow: -10px 2px 15px black;
+}
+
+#clock {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: Stencil;
+    font-size: 100px;
+}
+
+#date {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: Stencil;
+    font-size: 60px;
+}
